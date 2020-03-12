@@ -7,8 +7,7 @@ from scipy.optimize import fsolve
 import matplotlib.pyplot as plt
 #%matplotlib inline
 
-url = "https://raw.githubusercontent.com/wpa/COVID-19/master/national-trend-data/covid19-pl-trends-national.csv"
-#url = "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv"
+url = "https://raw.githubusercontent.com/wpa/COVID-19/master/national-trend-data/covid19-ie-trends-national.csv"
 df = pd.read_csv(url)
 
 
